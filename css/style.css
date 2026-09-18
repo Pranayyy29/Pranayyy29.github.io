@@ -848,3 +848,28 @@ main, .site-footer { position: relative; z-index: 2; }
 @media (max-width: 520px) {
   .garage-arm { display: none; }
 }
+
+/* SRA VJTI link */
+.sra-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  line-height: 0;
+}
+.sra-link img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  display: block;
+  opacity: .78;
+  transition: opacity .2s ease, transform .2s ease;
+}
+.sra-link:hover img {
+  opacity: 1;
+  transform: rotate(-3deg) scale(1.06);
+}
+@media (max-width: 520px) {
+  .sra-link { margin-left: 8px; }
+  .sra-link img { width: 23px; height: 23px; }
+}
