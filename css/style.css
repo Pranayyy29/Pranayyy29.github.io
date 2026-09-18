@@ -849,7 +849,7 @@ main, .site-footer { position: relative; z-index: 2; }
   .garage-arm { display: none; }
 }
 
-/* SRA VJTI link */
+/* Society of Robotics and Automation (VJTI) */
 .sra-link {
   display: inline-flex;
   align-items: center;
@@ -862,7 +862,7 @@ main, .site-footer { position: relative; z-index: 2; }
   height: 26px;
   object-fit: contain;
   display: block;
-  opacity: .78;
+  opacity: .8;
   transition: opacity .2s ease, transform .2s ease;
 }
 .sra-link:hover img {
